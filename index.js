@@ -1,7 +1,8 @@
 /* 
-1. Use the inquirer npm package to get user input.
-2. Use the qr-image npm package to turn the user entered URL into a QR code image.
-3. Create a txt file to save the user input using the native fs node module.
+1. Copy code
+2. in Command line npm install inquirer and qr-image.
+3. type node index.js to run code.
+4. Separate png image file and text file will be generated.
 */
 import inquirer from 'inquirer';
 import qr from "qr-image";
